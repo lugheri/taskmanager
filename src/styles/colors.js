@@ -1,4 +1,6 @@
 export const colors = {
+    'bg_side'   : '#34495e',
+    'bg_side_secondary'   : '#2c3e50',
     'primary'   : '#274662',
     'secondary' : '#2c3e50',
     'bg'        : '#ecf0f1',
