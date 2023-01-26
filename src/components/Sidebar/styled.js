@@ -4,12 +4,9 @@ import { colors } from '../../styles/colors'
 export const Sidebar = styled.div`
     display: flex;
     flex-direction:column;
-    background-color: ${ colors.side };
-    background-image: linear-gradient(to bottom left,${colors.bg_side_secondary},${colors.bg_side});
     height: 100vh;
     width: 5%;
     overflow-x: hidden;
-    box-shadow: 2px 0px 3px rgba(0,0,0,.5);
 
     .brand{
         display: flex;
@@ -18,7 +15,6 @@ export const Sidebar = styled.div`
         justify-content: center;
        
         padding:20px 0;
-        border-bottom:2px solid ${colors.primary};
         font-size:.7rem;
      
         >svg{

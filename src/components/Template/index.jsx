@@ -1,14 +1,18 @@
 import { Outlet } from 'react-router-dom'; 
+import { Navbar } from '../Nav';
 import { Sidebar } from '../Sidebar';
 import * as Styled from './styled';
 
 export const Template = () => {
     return (
         <Styled.Template>
-            <Sidebar/>
+            <Sidebar/>            
             <div className="body">
-                TEMPLATE
-                <Outlet />
+                <Navbar/>
+                <div className="main-container">
+                    <Outlet />
+                </div>
+                
             </div>
             
         </Styled.Template>

@@ -8,7 +8,8 @@ export default createGlobalStyle`
     outline: none;
     box-sizing: border-box;
   }
-  body {
+  body {    
+   
     font-family: Nunito, sans-serif;
     background: ${colors.bg};
     color: ${colors.secondary};
